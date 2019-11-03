@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Thought Keeper</string>
+    <string name="text_field_placeholder">What\'s on your mind?</string>
+    <string name="submit_btn">Save and Close</string>
+</resources>
