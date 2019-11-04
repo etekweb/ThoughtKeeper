@@ -3,4 +3,5 @@
     <string name="text_field_placeholder">What\'s on your mind?</string>
     <string name="submit_btn">Save</string>
     <string name="list_items_btn">See All Notes</string>
+    <string name="delete_items_btn">Delete All Thoughts</string>
 </resources>

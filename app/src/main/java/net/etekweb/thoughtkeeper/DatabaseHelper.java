@@ -60,4 +60,15 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         String query = "SELECT * FROM " + TABLE_NAME;
         return db.rawQuery(query, null);
     }
+
+    public boolean deleteData(){
+        try {
+            SQLiteDatabase db = this.getWritableDatabase();
+            String query = "DELETE FROM " + TABLE_NAME;
+            db.execSQL(query);
+        } catch (Throwable err){
+            return false;
+        }
+        return true;
+    }
 }

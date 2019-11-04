@@ -29,6 +29,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void pressSaveButton(View view) {
+        handleSave();
+        finish();
+    }
+
+    public void handleSave(){
         String text = inputField.getText().toString();
         boolean insertData = databaseHelperObj.addData(text);
         if(insertData) toast("Success!");
